@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ARTile_Grasland_001
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: -784667389, guid: 69cc3c434888eb442a31ac0b9515a9a8, type: 3}
-  m_DefaultGameObject: {fileID: 0}
+  m_DefaultGameObject: {fileID: 4969224302193718946, guid: ce279b989447ba445b9d45de44bd637b, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules:
   - m_Id: 0
