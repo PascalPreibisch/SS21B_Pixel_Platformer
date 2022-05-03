@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Coin
   - Game Manager
+  - Player Start
+  - Instant Kill
   layers:
   - Default
   - TransparentFX
