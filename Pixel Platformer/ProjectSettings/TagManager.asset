@@ -9,6 +9,9 @@ TagManager:
   - Game Manager
   - Player Start
   - Instant Kill
+  - Crew
+  - Safepoint
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

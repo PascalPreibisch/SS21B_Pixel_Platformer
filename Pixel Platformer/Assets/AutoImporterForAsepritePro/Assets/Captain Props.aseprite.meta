@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: adf64880c66b33d47b28ff85baad9bd7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1bfdceb9b4ffcac5db7031615ac132db, type: 3}
+  importOptions:
+    scale: 1
+    splitLayers: 0
+    splitSlices: 0
+    fileNameFormat: '{title}_{tag}_frame{tagframe1}'
+    ditheringAlgorithmType: 0
+    ditheringMatrixType: 0
+    colorMode: 0
+  spriteImportOptions:
+    pixelsPerUnit: 16
+    pivot: {x: 0.5, y: 0}
+    extrude: 0
+    meshType: 1
+    border: {x: 0, y: 0, z: 0, w: 0}
+  textureCreationOptions:
+    textureWrapMode: 1
+    filterMode: 0
+    alphaIsTransparency: 1
+  colabOptions:
+    exportToFile: 0
+    exportDirectory: Sprites/{filename}
+  animationOptions:
+  - tagName: Box
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Chest
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Rum
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Key
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Flag Up
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Flag Move
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Gold
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  - tagName: Start
+    animationOptions:
+      relativePath: 
+      componentType: 0
+      overrideDirection: 0
+      direction: 0
+      loopTime: 0
+      useCustomCurve: 0
+      customCurve:
+        serializedVersion: 2
+        curve: []
+        preInfinity: 2
+        postInfinity: 2
+        rotationOrder: 4
+  sheetData:
+    frames:
+    - filename: Captain Props_Box_frame1
+      frame:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Box_frame2
+      frame:
+        x: 40
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Box_frame3
+      frame:
+        x: 80
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Box_frame4
+      frame:
+        x: 120
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Box_frame5
+      frame:
+        x: 160
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Chest_frame1
+      frame:
+        x: 200
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Chest_frame2
+      frame:
+        x: 240
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Chest_frame3
+      frame:
+        x: 280
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Rum_frame1
+      frame:
+        x: 320
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Rum_frame2
+      frame:
+        x: 360
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Rum_frame3
+      frame:
+        x: 400
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Rum_frame4
+      frame:
+        x: 440
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Key_frame1
+      frame:
+        x: 480
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Key_frame2
+      frame:
+        x: 520
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Key_frame3
+      frame:
+        x: 560
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Key_frame4
+      frame:
+        x: 600
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame1
+      frame:
+        x: 640
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame2
+      frame:
+        x: 680
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame3
+      frame:
+        x: 720
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame4
+      frame:
+        x: 760
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame5
+      frame:
+        x: 800
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame6
+      frame:
+        x: 840
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame7
+      frame:
+        x: 880
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Up_frame8
+      frame:
+        x: 920
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Move_frame1
+      frame:
+        x: 960
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Move_frame2
+      frame:
+        x: 1000
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Move_frame3
+      frame:
+        x: 1040
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Move_frame4
+      frame:
+        x: 1080
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Flag Move_frame5
+      frame:
+        x: 1120
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Gold_frame1
+      frame:
+        x: 1160
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Gold_frame2
+      frame:
+        x: 1200
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Gold_frame3
+      frame:
+        x: 1240
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Gold_frame4
+      frame:
+        x: 1280
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    - filename: Captain Props_Start_frame1
+      frame:
+        x: 1320
+        y: 0
+        w: 40
+        h: 37
+      rotated: 0
+      trimmed: 0
+      spriteSourceSize:
+        x: 0
+        y: 0
+        w: 40
+        h: 37
+      sourceSize:
+        w: 40
+        h: 37
+      duration: 100
+    meta:
+      version: 1.2.34.1-x64
+      image: Captain Props_sheet.png
+      format: RGBA8888
+      size:
+        w: 1360
+        h: 37
+      scale: 1
+      frameTags:
+      - name: Box
+        from: 0
+        to: 4
+        direction: forward
+      - name: Chest
+        from: 5
+        to: 7
+        direction: forward
+      - name: Rum
+        from: 8
+        to: 11
+        direction: forward
+      - name: Key
+        from: 12
+        to: 15
+        direction: forward
+      - name: Flag Up
+        from: 16
+        to: 23
+        direction: forward
+      - name: Flag Move
+        from: 24
+        to: 28
+        direction: forward
+      - name: Gold
+        from: 29
+        to: 32
+        direction: forward
+      - name: Start
+        from: 33
+        to: 33
+        direction: forward
+      slices: []
+    pathToSheetData: Temp/UnityTempFile-c927fb450c7ea0745b98963cbc05f427/asetempexports/CaptainProps_data.json
+    aseFileName: Assets/AutoImporterForAsepritePro/Assets/Captain Props.aseprite
