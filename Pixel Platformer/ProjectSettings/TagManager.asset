@@ -12,6 +12,13 @@ TagManager:
   - Crew
   - Safepoint
   - Checkpoint
+  - Rum
+  - Key
+  - KeyImage
+  - RumImage
+  - PlayerAttack
+  - PlayerInteract
+  - Boat
   layers:
   - Default
   - TransparentFX
@@ -51,4 +58,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: FX
+    uniqueID: 1173060717
     locked: 0
