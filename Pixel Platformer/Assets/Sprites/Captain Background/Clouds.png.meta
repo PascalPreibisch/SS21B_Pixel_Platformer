@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f1c5cba3e3f0424fb97312510697c33
+guid: 25342298d98a5434481a0cad911f4f84
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Row Boat BG_0
+      name: Clouds_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 54
-        height: 48
+        width: 288
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,92 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69477f31cff00b4a93857315aa9dd65
-      internalID: 202436271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Row Boat BG_1
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 0
-        width: 54
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2ce8384da202974e9e62ccbd39c9a10
-      internalID: 1798118207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Row Boat BG_2
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 0
-        width: 54
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5961d0746cd6088418c97c32dd39a313
-      internalID: 760138815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Row Boat BG_3
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 0
-        width: 54
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c4764162ce19184b82a571e54d09145
-      internalID: 134032109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Row Boat BG_4
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 54
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 702f5ba5c90f5014d8f5d29f80ab05a1
-      internalID: 864476054
+      spriteID: b0cdc3907052a9947b15a1a4a0b408b3
+      internalID: 117940697
       vertices: []
       indices: 
       edges: []
@@ -219,11 +135,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Row Boat BG_2: 760138815
-      Row Boat BG_1: 1798118207
-      Row Boat BG_0: 202436271
-      Row Boat BG_3: 134032109
-      Row Boat BG_4: 864476054
+      Clouds_0: 117940697
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
