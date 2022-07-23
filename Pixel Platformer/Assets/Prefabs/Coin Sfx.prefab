@@ -143,9 +143,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Audio","value":null,"typeHandle":{"Identification":"UnityEngine.AudioSource,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Audio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 1798822970805458414}
 --- !u!114 &8582165947688059421
 MonoBehaviour:
   m_ObjectHideFlags: 0
