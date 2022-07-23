@@ -366,7 +366,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CameraOffset","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackCollider","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
       UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InteractCollider","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.BoxCollider2D,
-      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"StepSoundList","value":{"$content":[6,7,8,9],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7125537354205063594}
     - {fileID: 4040103502239706977}
@@ -374,6 +377,10 @@ MonoBehaviour:
     - {fileID: 7444873957621723432}
     - {fileID: 7895655194330129666}
     - {fileID: 9143031032576230865}
+    - {fileID: 8300000, guid: d850db52f66b643468c026171d39b917, type: 3}
+    - {fileID: 8300000, guid: 70c47bf49b846a4489e16da1d69c9498, type: 3}
+    - {fileID: 8300000, guid: 2cd6bc50e6da7714d91ecf72b57e8c6a, type: 3}
+    - {fileID: 8300000, guid: 80f15229a183ca8439fa760c501ca14c, type: 3}
 --- !u!114 &7125537354205063606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,7 +503,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4858771085401357482, guid: b99927694d00de6439dacf803ce2ec83, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 1f3663395adf0534788a22c4f989ccc8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d850db52f66b643468c026171d39b917, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
