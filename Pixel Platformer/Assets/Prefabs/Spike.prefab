@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1292419213761816070}
   - component: {fileID: 4956299997412410816}
   - component: {fileID: 7478376836229303157}
-  - component: {fileID: 5025928662811723087}
+  - component: {fileID: 3526818398849267190}
+  - component: {fileID: 6955230087679837954}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -73,10 +74,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1187646720, guid: 4e5f94dbab564f146bb28dd19d4a29f0, type: 3}
+  m_SortingLayerID: 61033495
+  m_SortingLayer: -1
+  m_SortingOrder: 3
+  m_Sprite: {fileID: -371940544, guid: 6866fc98b88f8de4584102c7c84879ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,8 +102,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DamageAmount","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DamageSoundList","value":{"$content":[0,1,2],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DamageSound","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 50c73c32ff016e540a34f02da3cdb753, type: 3}
+    - {fileID: 8300000, guid: 46a0896ef22da2844b39965e4da99482, type: 3}
+    - {fileID: 8300000, guid: e511f9951089d4649b4d02edce2ef0b5, type: 3}
+    - {fileID: 3526818398849267190}
 --- !u!114 &7478376836229303157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +128,103 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: c35947c7560058a418a544c1fa2bbbc8, type: 2}
---- !u!60 &5025928662811723087
+--- !u!82 &3526818398849267190
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838399832493142596}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -4858771085401357482, guid: b99927694d00de6439dacf803ce2ec83, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 50c73c32ff016e540a34f02da3cdb753, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!60 &6955230087679837954
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,15 +233,15 @@ PolygonCollider2D:
   m_GameObject: {fileID: 3838399832493142596}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8d4dd076b7c6ec944b663d13918573c5, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.5, y: 1.5625}
     newSize: {x: 0.5, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -144,13 +249,25 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.17630196, y: 0.12791306}
-      - {x: -0.31455612, y: -0.008055627}
-      - {x: -0.37145996, y: -0.19589943}
-      - {x: -0.3709736, y: -0.3795387}
-      - {x: -0.27881432, y: -0.49508464}
-      - {x: 0.24440575, y: -0.49508464}
-      - {x: 0.36694145, y: -0.36743993}
-      - {x: 0.37041664, y: -0.1935659}
-      - {x: 0.3117981, y: -0.005105078}
-      - {x: 0.18961716, y: 0.13153762}
+    - - {x: -0.56015587, y: 0.055616558}
+      - {x: -0.5114212, y: 0}
+      - {x: -0.36701775, y: 0.0034418106}
+      - {x: -0.37445068, y: 0.06070435}
+      - {x: -0.50344276, y: 0.2545391}
+      - {x: -0.56015587, y: 0.25399038}
+    - - {x: 0.12738037, y: 0.5094023}
+      - {x: 0.12586212, y: 1.1794256}
+      - {x: 0.06910896, y: 1.1899933}
+      - {x: 0.06790352, y: 1.5619073}
+      - {x: -0.0023384094, y: 1.5665886}
+      - {x: 0.00057792664, y: 0.75466806}
+      - {x: -0.053684235, y: 0.7537936}
+      - {x: -0.06075096, y: 0.0040887594}
+      - {x: 0.18413353, y: 0.006883502}
+      - {x: 0.49435425, y: 0.0008023381}
+      - {x: 0.6308918, y: -0.0009073615}
+      - {x: 0.6326294, y: 0.06527352}
+      - {x: 0.5710316, y: 0.18288296}
+      - {x: 0.37573814, y: 0.24788094}
+      - {x: 0.18445587, y: 0.2574322}
+      - {x: 0.1875, y: 0.49126494}

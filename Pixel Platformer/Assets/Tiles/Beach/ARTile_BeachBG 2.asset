@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+  m_Name: ARTile_BeachBG 2
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: -614097038, guid: ad54a143f5744dd4786eafe56ef94dc8, type: 3}
+  m_DefaultGameObject: {fileID: 0}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -614097038, guid: ad54a143f5744dd4786eafe56ef94dc8, type: 3}
+    - {fileID: 1757878991, guid: bc254c51a9de27b48bf5f63bb12fa8fc, type: 3}
+    - {fileID: -1258355387, guid: bc254c51a9de27b48bf5f63bb12fa8fc, type: 3}
+    - {fileID: 1910657207, guid: bc254c51a9de27b48bf5f63bb12fa8fc, type: 3}
+    - {fileID: 28548093, guid: bc254c51a9de27b48bf5f63bb12fa8fc, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 
+    m_NeighborPositions: []
+    m_RuleTransform: 0
