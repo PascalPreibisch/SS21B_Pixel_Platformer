@@ -3151,7 +3151,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 30, y: -2, z: 0}
@@ -3173,7 +3173,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 38, y: -2, z: 0}
@@ -3228,7 +3228,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 58, y: -2, z: 0}
@@ -3250,7 +3250,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -15854,7 +15854,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.8, y: -2.93}
+  m_AnchoredPosition: {x: 13.34, y: -2.93}
   m_SizeDelta: {x: 6.4124, y: 2.1994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2061758819
@@ -15877,7 +15877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "E\t=\tAttack"
+  m_text: "Shift\t=\tAttack"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
