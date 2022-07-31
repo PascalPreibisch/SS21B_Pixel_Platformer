@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3371438
 RectTransform:
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -225, y: -50}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 133.09, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &3371439
 MonoBehaviour:
@@ -1085,6 +1085,17 @@ MonoBehaviour:
   - {x: -46.19291, y: -41.446922, z: 0}
   - {x: 0.025583267, y: -0.69522285, z: 0}
   - {x: 0.28568077, y: 0.17821884, z: 0}
+--- !u!114 &215459434 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7436040191327950782, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
+  m_PrefabInstance: {fileID: 807959202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &315967208 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1642349278799696699, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
@@ -1312,7 +1323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &418023122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1332,7 +1343,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 150, y: -150}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 56.25, y: 68.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418023123
 MonoBehaviour:
@@ -10185,7 +10196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1006841841
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10339,6 +10350,17 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
+--- !u!114 &1116513831 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4805766326817728326, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
+  m_PrefabInstance: {fileID: 807959202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1150977993
 GameObject:
   m_ObjectHideFlags: 0
@@ -10630,10 +10652,10 @@ RectTransform:
   m_Father: {fileID: 418023122}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 28.125, y: -34.375}
+  m_SizeDelta: {x: 56.25, y: 68.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264387896
 MonoBehaviour:
@@ -10912,7 +10934,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6563b859a897a6d469f4920691bc8e22, type: 2}
+    - {fileID: 11400000, guid: c8833e2b451bff5449ac8a311f7a4d58, type: 2}
 --- !u!114 &1356661098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11205,7 +11227,9 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Key8","value":{"$content":32,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EventSystem","value":{"$content":33,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.EventSystems.EventSystem,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DeadSound","value":{"$content":34,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpacerButton01","value":{"$content":35,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpacerButton02","value":{"$content":36,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 17972445}
     - {fileID: 1873796166}
@@ -11242,6 +11266,8 @@ MonoBehaviour:
     - {fileID: -899697205, guid: f693bbd27cebfb44aa97f192a879830a, type: 3}
     - {fileID: 1886613677}
     - {fileID: 8300000, guid: 9bf48bef47492564ab46dc397605cce2, type: 3}
+    - {fileID: 215459434}
+    - {fileID: 1116513831}
 --- !u!114 &1375781425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16925,7 +16951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1619709646
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16945,7 +16971,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75, y: -150}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 56.25, y: 68.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1619709647
 MonoBehaviour:
@@ -17341,10 +17367,10 @@ RectTransform:
   m_Father: {fileID: 1619709646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 28.125, y: -34.375}
+  m_SizeDelta: {x: 56.25, y: 68.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754181819
 MonoBehaviour:
@@ -17417,10 +17443,10 @@ RectTransform:
   m_Father: {fileID: 3371438}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -25}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761503008
 MonoBehaviour:
@@ -17512,6 +17538,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"KeyScore","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ActualKeyScore","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ActualRumScore","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CrewNeeded","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1871608184}
@@ -18416,10 +18443,10 @@ RectTransform:
   m_Father: {fileID: 3371438}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 101.545, y: -25}
+  m_SizeDelta: {x: 63.09, y: 36.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871608184
 MonoBehaviour:

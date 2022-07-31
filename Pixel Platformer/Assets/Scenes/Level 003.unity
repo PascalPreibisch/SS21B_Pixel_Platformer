@@ -3617,7 +3617,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: -2, z: 0}
@@ -3628,7 +3628,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 6, y: -2, z: 0}
@@ -3650,7 +3650,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 14, y: -2, z: 0}
@@ -3727,7 +3727,7 @@ Tilemap:
       - {fileID: 321725971, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: 2059639127, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
       - {fileID: -970227418, guid: a76491ea3b749334b9fe37daca1aa260, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 42, y: -2, z: 0}
@@ -25429,34 +25429,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 289720083}
-    - target: {fileID: 1642349278799696699, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
     - target: {fileID: 1642349279127333026, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 289720083}
-    - target: {fileID: 1642349279127333026, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
     - target: {fileID: 1642349279356882585, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 289720083}
-    - target: {fileID: 1642349279356882585, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
     - target: {fileID: 1642349279662350384, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 289720083}
-    - target: {fileID: 1642349279662350384, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
     - target: {fileID: 1642349279701565988, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
       propertyPath: m_Name
       value: Menu
@@ -25549,10 +25533,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 289720083}
-    - target: {fileID: 1642349279971816785, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
 --- !u!1 &807959203 stripped
@@ -26862,6 +26842,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8207745279665776317, guid: e38fc38d8cfd6f345b32e7e729cdce42, type: 3}
   m_PrefabInstance: {fileID: 1957978492}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &854560384 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4805766326817728326, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
+  m_PrefabInstance: {fileID: 807959202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &857771507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28359,6 +28350,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3238131571409681117, guid: a98b91756271a4c40be2b5fb958295fa, type: 3}
   m_PrefabInstance: {fileID: 1972288147}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1222271009 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7436040191327950782, guid: c721de05f7af0b64dadddfb08225b8d3, type: 3}
+  m_PrefabInstance: {fileID: 807959202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1232268074
 GameObject:
   m_ObjectHideFlags: 0
@@ -48406,7 +48408,9 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Key8","value":{"$content":32,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EventSystem","value":{"$content":33,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.EventSystems.EventSystem,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlattformScript","value":{"$content":34,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"Unity.VisualScripting.ScriptMachine,
-      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpacerButton01","value":{"$content":35,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpacerButton02","value":{"$content":36,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 17972445}
     - {fileID: 1873796166}
@@ -48443,6 +48447,8 @@ MonoBehaviour:
     - {fileID: -899697205, guid: f693bbd27cebfb44aa97f192a879830a, type: 3}
     - {fileID: 1886613677}
     - {fileID: 2094608805}
+    - {fileID: 1222271009}
+    - {fileID: 854560384}
 --- !u!114 &1375781425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50614,7 +50620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -277129483, guid: d258a2e54b5323c44b43ccc0d26e688b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 524deb7abe193934da2234a76eeb483f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
